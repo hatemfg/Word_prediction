@@ -11,7 +11,7 @@ import climate
 
 climate.enable_default_logging()
 
-corpuses = [gutenberg.words()[:20000]]
+corpuses = [gutenberg.words()]
 
 data = []
 for corpus in corpuses:
